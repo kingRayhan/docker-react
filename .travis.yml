@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t kingrayhan/docker-react -f Dockerfile.dev
+
+scripts:
+  - docker run -d kingrayhan/docker-react test -- --coverage
