@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Dockerized React 2
+          Github Actions
         </a>
       </header>
     </div>
